@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 90%;
+  margin: 5%;
+  margin-top: 1%;
+  background: linear-gradient(90deg, rgb(140, 174, 204), rgb(65, 100, 135));
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  word-spacing: 2px;
+  color: rgb(48, 21, 82);
+  padding: 1%;
+}
+
+h2 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(94, 79, 231);
+}
+
+a:visited {
+  color: red;
+}
+
+a:visited:hover {
+  color: rgb(165, 121, 121);
+}
+
+blockquote {
+  max-width: 50%;
+  margin-left: 25%;
+  background-color: rgb(141, 131, 131);
+  border-left: 3px solid black;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+blockquote p {
+  font-size: 160%;
+}
+
+.farmer {
+  border-left: 3px solid rgb(126, 128, 0);
+}
+
+.neighbors {
+  border-left: 3px solid rgb(72, 14, 180);
+}
+
+header h1 {
+  background-color: yellow;
+}
+
+q {
+  font-style: italic;
+  padding-left: 1%;
+}
+
+.good,
+.bad {
+  text-transform: capitalize;
+}
+
+.bad {
+  color: red;
+}
+
+.good {
+  color: green;
+}
+
+.first {
+  font-weight: bold;
+}
+
+table {
+  margin: 1%;
+  margin: auto;
+}
+
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+
+tbody tr {
+  background-color: white;
+}
+
+tbody tr:nth-child(2n + 1) {
+  background-color: grey;
+}
+
+img {
+  max-width: 50%;
+  max-height: 15%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.table,
+footer {
+  text-align: center;
+}
+
+.notification {
+  background: #e00850;
+  padding: 0.5rem 1rem;
+  border: 3px solid #e00850;
+  width: 250px;
+  font-weight: bold;
+  color: #ccccb7;
+  position: sticky;
+  top: 90%;
+  left: 90%;
+}
